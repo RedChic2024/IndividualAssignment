@@ -1,0 +1,48 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the banner ad container */
+.banner-ad {
+    width: 728px; /* Adjust width as needed */
+    height: 90px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Example background color */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-ad img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-ad .content {
+    margin-left: 20px; /* Adjust spacing */
+}
+
+.banner-ad h1, .banner-ad p {
+    margin: 0;
+}
+
+.banner-ad button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.banner-ad a.button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
