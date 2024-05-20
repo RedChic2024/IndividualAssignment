@@ -17,9 +17,16 @@ body{
     color: var(--dark);
 }
 img{
-    width: 100%;
-    display: block;
+    /*the idea was to keep it in the ration of 5:2 as the rules apply*/
+    /*width: 50%; 
+    height: 20%;*/ /*This was my first attempt but that did not work out as planned*/
+    /*second attempt and not bad
+    this works at the top left */
+    width: 20%;
+    height: 8%;
+    display: block;   
 }
+
 .container{
     max-width: 1320px;
     margin: 0 auto;
