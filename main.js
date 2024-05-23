@@ -135,8 +135,8 @@ function completeHandler(event) {
      
 //advert 5 is here
 var formdata = new FormData();
-formdata.append("type", "Thick Vertical");
-formdata.append("tags", "Kelly");
+formdata.append("type", "Thick Vertical"); 
+formdata.append("tags", "Kelly"); 
 
 var ajax = new XMLHttpRequest();
 ajax.addEventListener("load", completeHandler, false);
@@ -154,6 +154,178 @@ function completeHandler(event) {
     document.querySelector('.advertIMG').alt = response.alt;
     document.querySelector('.anchorElement').href = response.href;
     document.querySelector('.headerText').innerHTML = response.message;
+
+    //advert random....fashion
+var formdata = new FormData();
+formdata.append("type", "Thick Vertical"); //type I am looking for 
+formdata.append("tags", "fashion"); //tags that might be randoms
+
+var ajax = new XMLHttpRequest();
+ajax.addEventListener("load", completeHandler, false);
+
+ajax.open("POST", "https://ad.simaneka.com/api/get");
+ajax.setRequestHeader("authorisation", "gdtJtWKEiVGZRa0v8aGiCJNRmNSHRVWn");
+
+ajax.send(formdata);
+
+function completeHandler(event) {
+    var response = JSON.parse(event.target.responseText);
+
+    console.log(response);
+    document.querySelector('.advertIMG').src = response.link;
+    document.querySelector('.advertIMG').alt = response.alt;
+    document.querySelector('.anchorElement').href = response.href;
+    document.querySelector('.headerText').innerHTML = response.message;
+
+
 }
-     
+    //advert random....tech
+    var formdata = new FormData();
+    formdata.append("type", "Thick Vertical"); //type I am looking for 
+    formdata.append("tags", "tech"); //tags that might be randoms
+    
+    var ajax = new XMLHttpRequest();
+    ajax.addEventListener("load", completeHandler, false);
+    
+    ajax.open("POST", "https://ad.simaneka.com/api/get");
+    ajax.setRequestHeader("authorisation", "gdtJtWKEiVGZRa0v8aGiCJNRmNSHRVWn");
+    
+    ajax.send(formdata);
+    
+    function completeHandler(event) {
+        var response = JSON.parse(event.target.responseText);
+    
+        console.log(response);
+        document.querySelector('.advertIMG').src = response.link;
+        document.querySelector('.advertIMG').alt = response.alt;
+        document.querySelector('.anchorElement').href = response.href;
+        document.querySelector('.headerText').innerHTML = response.message;
+    
+    
+    }
+
+        //advert random....food
+var formdata = new FormData();
+formdata.append("type", "Thick Vertical"); //type I am looking for 
+formdata.append("tags", "food"); //tags that might be randoms
+
+var ajax = new XMLHttpRequest();
+ajax.addEventListener("load", completeHandler, false);
+
+ajax.open("POST", "https://ad.simaneka.com/api/get");
+ajax.setRequestHeader("authorisation", "gdtJtWKEiVGZRa0v8aGiCJNRmNSHRVWn");
+
+ajax.send(formdata);
+
+function completeHandler(event) {
+    var response = JSON.parse(event.target.responseText);
+
+    console.log(response);
+    document.querySelector('.advertIMG').src = response.link;
+    document.querySelector('.advertIMG').alt = response.alt;
+    document.querySelector('.anchorElement').href = response.href;
+    document.querySelector('.headerText').innerHTML = response.message;
+
+
+}
+
+    //advert random....sport
+    var formdata = new FormData();
+    formdata.append("type", "Thick Vertical"); //type I am looking for 
+    formdata.append("tags", "sport"); //tags that might be randoms
+    
+    var ajax = new XMLHttpRequest();
+    ajax.addEventListener("load", completeHandler, false);
+    
+    ajax.open("POST", "https://ad.simaneka.com/api/get");
+    ajax.setRequestHeader("authorisation", "gdtJtWKEiVGZRa0v8aGiCJNRmNSHRVWn");
+    
+    ajax.send(formdata);
+    
+    function completeHandler(event) {
+        var response = JSON.parse(event.target.responseText);
+    
+        console.log(response);
+        document.querySelector('.advertIMG').src = response.link;
+        document.querySelector('.advertIMG').alt = response.alt;
+        document.querySelector('.anchorElement').href = response.href;
+        document.querySelector('.headerText').innerHTML = response.message;
+    
+    
+    }
+
+        //advert random....Films and Movies
+        var formdata = new FormData();
+        formdata.append("type", "Thick Vertical"); //type I am looking for 
+        formdata.append("tags", "Films and Movies"); //tags that might be randoms
+        
+        var ajax = new XMLHttpRequest();
+        ajax.addEventListener("load", completeHandler, false);
+        
+        ajax.open("POST", "https://ad.simaneka.com/api/get");
+        ajax.setRequestHeader("authorisation", "gdtJtWKEiVGZRa0v8aGiCJNRmNSHRVWn");
+        
+        ajax.send(formdata);
+        
+        function completeHandler(event) {
+            var response = JSON.parse(event.target.responseText);
+        
+            console.log(response);
+            document.querySelector('.advertIMG').src = response.link;
+            document.querySelector('.advertIMG').alt = response.alt;
+            document.querySelector('.anchorElement').href = response.href;
+            document.querySelector('.headerText').innerHTML = response.message;
+        
+        
+        }
+            //advert random....Animations
+    var formdata = new FormData();
+    formdata.append("type", "Thick Vertical"); //type I am looking for 
+    formdata.append("tags", "Animations"); //tags that might be randoms
+    
+    var ajax = new XMLHttpRequest();
+    ajax.addEventListener("load", completeHandler, false);
+    
+    ajax.open("POST", "https://ad.simaneka.com/api/get");
+    ajax.setRequestHeader("authorisation", "gdtJtWKEiVGZRa0v8aGiCJNRmNSHRVWn");
+    
+    ajax.send(formdata);
+    
+    function completeHandler(event) {
+        var response = JSON.parse(event.target.responseText);
+    
+        console.log(response);
+        document.querySelector('.advertIMG').src = response.link;
+        document.querySelector('.advertIMG').alt = response.alt;
+        document.querySelector('.anchorElement').href = response.href;
+        document.querySelector('.headerText').innerHTML = response.message;
+    
+    
+    }
+
+        //advert random....Anime
+        var formdata = new FormData();
+        formdata.append("type", "Thick Vertical"); //type I am looking for 
+        formdata.append("tags", "Anime"); //tags that might be randoms
+        
+        var ajax = new XMLHttpRequest();
+        ajax.addEventListener("load", completeHandler, false);
+        
+        ajax.open("POST", "https://ad.simaneka.com/api/get");
+        ajax.setRequestHeader("authorisation", "gdtJtWKEiVGZRa0v8aGiCJNRmNSHRVWn");
+        
+        ajax.send(formdata);
+        
+        function completeHandler(event) {
+            var response = JSON.parse(event.target.responseText);
+        
+            console.log(response);
+            document.querySelector('.advertIMG').src = response.link;
+            document.querySelector('.advertIMG').alt = response.alt;
+            document.querySelector('.anchorElement').href = response.href;
+            document.querySelector('.headerText').innerHTML = response.message;
+        
+        
+        }
+}  
 });
